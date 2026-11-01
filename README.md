@@ -1,6 +1,6 @@
-# POO — Morpion, Puissance 4 et Nim
+# Jeux Java — Morpion, Puissance 4 et Nim
 
-Projet collectif de **Programmation orientée objet**, réalisé en **L2 Informatique, semestre 3**, à l’Université d’Orléans.
+Projet réalisé **en équipe de trois** dans le cours de **Programmation orientée objet**, réalisé en **L2 Informatique, semestre 3**, à l’Université d’Orléans.
 
 L’application permet de jouer en console au Morpion, au Puissance 4 et à Nim. Les trois jeux partagent une même structure pour gérer les joueurs, les tours et les résultats.
 
@@ -13,12 +13,12 @@ L’application permet de jouer en console au Morpion, au Puissance 4 et à Nim.
 
 Pour Nim, la stratégie difficile utilise le XOR des tailles des tas. Les adversaires sont des stratégies programmées, sans apprentissage automatique.
 
-## Lien avec le cours de POO
+## Conception orientée objet
 
 - **Classes et encapsulation** : joueurs, état de la partie et règles de chaque jeu.
 - **Héritage et polymorphisme** : `Partie` est la classe abstraite commune à `Morpion`, `Puissance4` et `Nim`.
 - **Abstraction des stratégies** : les adversaires spécialisés héritent de `IA` et redéfinissent `choisirCoup`.
-- **Séparation des responsabilités** : modèle pour les règles, vue pour la console et contrôleur pour le déroulement.
+- **Architecture MVC** : modèle pour les règles, vue pour la console et contrôleur pour le déroulement.
 
 ## Organisation
 
@@ -53,5 +53,5 @@ Le menu demande les noms, le mode de jeu et le jeu choisi. Les coups se saisisse
 
 ## Autres projets universitaires
 
-- [Système mono-tâche — compilateur Jack et Snake](https://github.com/hslimani45/monotache)
-- [Framework Web 1 — Bonnes Lectures](https://github.com/hslimani45/bonnes-lectures)
+- [Système mono-tâche — compilateur Jack et Snake](https://github.com/hslimani45/systeme-monotache-jack)
+- [Framework Web 1 — Bonnes Lectures](https://github.com/hslimani45/bonnes-lectures-django)
